@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 15);
+    color:white;
+}
+nav{
+    text-align: center;
+    background-color:rgb(247, 228, 236);
+    padding:.3rem 0rem;
+    border-bottom-left-radius: 2rem;
+}
+h1{
+    color:purple;
+}
+.header{
+    margin:1rem 0rem;
+}
+nav ul li{
+    display: inline;
+    padding:1rem 0.5rem;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: large;
+
+}
+.link-active a{
+    font-weight: bold;
+    color:purple;
+}
+.main{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.main h1{
+    color:white;
+    margin-bottom: 2rem;
+}
+#msg-para{
+    color:white;
+    display:none;
+    margin:2rem 0rem;
+}
+label{
+    display:block;
+    font-size: large;
+    padding:1rem 0rem;
+    color:white;
+}
+label span{
+    color:rgb(248, 8, 8);
+    font-size: larger;
+}
+input{
+    width:30%;
+    padding:0.6rem 0.6rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 16px -9px rgba(250,241,241,0.75);
+-webkit-box-shadow: 0px 10px 16px -9px rgba(250,241,241,0.75);
+-moz-box-shadow: 0px 10px 16px -9px rgba(250,241,241,0.75);
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    display: block;
+    margin:1.5rem auto;
+    padding:0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: large;
+    background-color: white;
+    border:2px solid green;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: green;
+    color:white;
+    font-weight: bold;
+}
+#display-area , #display-hypo{
+    display: none;
+    padding-top:2rem ;
+}
+
+/* quiz page */
+
+
+.question-container  label input{
+    
+    width:5%;
+    padding:0.3rem 0.6rem;
+    border: none;
+        
+  
+}
+#output-score{
+    display:none;
+    text-align: center;
+    margin: 1.5rem 0rem;
+    font-size: Larger;
+}
+/* footer */
+.footer{
+    background-color:rgb(247, 228, 236) ;
+    color:black;
+    width: 100%;
+    text-align: center;
+    padding:.5rem 0rem;
+    border-top-left-radius: 2rem;
+}
+
+ul{
+    padding: .5rem;
+}
+ul li{
+ display:inline;
+
+ 
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+    padding:0.3rem 0.4rem;
+    font-size: large;
+}
+ul li a:hover{
+    font-weight: bold;
+}
+.extranote{
+    text-align: center;
+}
+h4 {
+    color:rgb(53, 42, 42);
+    
+    
+}
+.notice{
+    text-align: center;
+    padding-top: 1rem;
+   
+}
