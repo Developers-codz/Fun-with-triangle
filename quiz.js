@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quiz-form");
 const btnSubmit = document.querySelector("#submit-btn");
 const output = document.querySelector("#output-score");
 
-const correct = ["90°" , "right angled" , "3"];
+const correct = ["90°" , "right angled" , "3" , "80°" ,"scalene"];
 
 function calculateScore(){
     
@@ -16,6 +16,6 @@ function calculateScore(){
         index=index+1;
     }
     output.style.display="block";
-    output.innerText = "You Scored " + score ;
+    output.innerText = "You Scored  " + score ;
 }
 btnSubmit.addEventListener("click" , calculateScore);
